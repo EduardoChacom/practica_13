@@ -1,0 +1,13 @@
+body{
+    background-color: #2a2929;
+    color: aliceblue;
+}
+
+th{
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+
+.cabecera{
+    background-color: rgb(31, 104, 31);
+}

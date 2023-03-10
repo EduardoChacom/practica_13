@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link href="assets/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+
+<body>
+    
+    <h1>Person: <%= ID %></h1>
+
+    <h1>
+    <% if (ID % 2 === 0) { %>
+        El número <%= ID %> es par.
+      <% } else { %>
+        El número <%= ID %> es impar.
+      <% } %>
+      
+      <ul>
+        <% for (let i = 1; i <= ID; i++) { %>
+          <li><%= i %></li>
+        <% } %>
+      </ul>
+    </h1>
+      
+</body>
+
+</html>
